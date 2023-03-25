@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label>
+            password
+        <input type="password" placeholder="12345" minlength="3" maxlength="7"><!--Вказує на максимальне і мінмальне значення символів-->
+    </label>
+    <button type="submit">submit</button>
+    <br>
+    <label for="input">Text</label>
+    <input id="input" type="text" name="simple-text" autofocus><!--Вказує на перший яки  знайде якщо вказати більше одного автофокусу-->
+    <button type="submit">submit</button>
+    <label> Опрос
+        <input type="radio" value="Green" name="question">     </label>
+        <label>Друге питання<input type="radio" value="Green" name="question"><!--Щоб вони були пов'язані потрібно вказати однаковий name--></label>
+        <br>
+        <label> checkbox1
+        <input type="checkbox" value="Green" name="checkbox"></label>
+        <label> checkbox2
+        <input type="checkbox" value="Green" name="checkbox"></label>
+        <label> checkbox3
+        <input type="checkbox" value="Green" name="checkbox"></label>
+        <br>
+        <label> Age
+            <input type="number" value="0" name="checkbox" min="1" max="100" step="3"></label>
+            <br>
+            <label>Телефончик
+            <input type="tel" placeholder="+380" name="telefone"></label>
+            <button type="submit">submit</button>
+            <br>
+            <label>Повзунок
+                <input type="range" value="0" name="range" min="0" max="100" step="5"></label>
+            <br>
+            <label>Дата
+                <input type="date" value="0" min="1900-00-00" max="2200-00-00"></label>
+            <br>
+            <label>Дата
+                <input type="time"></label>
+            <br>
+            <label>Дата
+                <input type="datetime-local" min="1900-00-00" max="2200-00-00";></label>
+            <br>
+    </form>
+    </form>
+</body>
+</html>
